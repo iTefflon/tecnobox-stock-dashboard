@@ -329,7 +329,4 @@ with col2:
         st.error(f"**Carahue 1** tiene mayor pérdida promedio por producto: ${perdida_promedio_c1:,.0f} (${diferencia_promedio:,.0f} más que Carahue 2)")
     
     productos_criticos = len(critical_codes)
-    if productos_criticos > 0:
-        st.error(f" **{productos_criticos} productos críticos** indican fallas sistemáticas de supervisión")
-
-st.info(" **Recomendación:** Los descuadres mostrados requieren revisión inmediata de los procesos de supervisión y control de inventario.")
+    # Mensaje eliminado por solicitud del jefe

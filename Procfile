@@ -1,0 +1,1 @@
+web: streamlit run dashboard_jefe_simple.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
