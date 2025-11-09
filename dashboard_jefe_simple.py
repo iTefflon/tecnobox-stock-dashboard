@@ -325,4 +325,4 @@ with col2:
         st.error(f"**Carahue 1** tiene mayor pérdida promedio por producto: ${perdida_promedio_c1:,.0f} (${diferencia_promedio:,.0f} más que Carahue 2)")
     
     productos_criticos = len(critical_codes)
-    # Mensaje eliminado por solicitud del jefe
+    
