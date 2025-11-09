@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Dashboard Simple para el Jefe - Control de Descuadres de Stock
-Tecnobox Chile - Análisis de Supervisión
-"""
 
 import streamlit as st
 import pandas as pd
@@ -13,7 +9,7 @@ from pathlib import Path
 # Configuración de página
 st.set_page_config(
     page_title="Control de Stock - Tecnobox Chile",
-    page_icon="📊",
+    page_icon=",🟢",
     layout="wide"
 )
 
